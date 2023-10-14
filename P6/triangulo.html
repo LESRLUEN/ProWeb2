@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triángulo</title>
+</head>
+<body>
+
+    <script>
+        // Tamaño del triángulo
+        const tamano = 4;
+
+        // Bucle externo para las filas
+        for (let i = 1; i <= tamano; i++) {
+            // Bucle interno para construir cada línea
+            let linea = '';
+
+            for (let j = 1; j <= i; j++) {
+                linea += '#';
+            }
+
+            // Muestra la línea directamente en la página
+            document.write(linea + '<br>');
+        }
+    </script>
+
+</body>
+</html>

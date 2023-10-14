@@ -25,5 +25,3 @@ function generarRFC() {
     // Mostrar el RFC generado
     document.getElementById("resultado").innerText = "RFC generado: " + rfc;
 }
-
-//

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Promedio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Calculadora de Promedio</h2>
+    <form id="promedioForm">
+        <label for="nombre">Nombre del alumno:</label>
+        <input type="text" id="nombre" required>
+        <br>
+        <label for="numCalificaciones">Número de calificaciones:</label>
+        <input type="number" id="numCalificaciones" required>
+        <br>
+        <div id="calificacionesContainer"></div>
+        <br>
+        <button type="button" onclick="agregarCalificaciones()">Agregar Calificaciones</button>
+        <br>
+        <button type="button" onclick="calcularPromedio()">Calcular Promedio</button>
+        <br>
+        <div id="resultado"></div>
+        <br>
+        <button type="button" onclick="reiniciar()">¿Otra operación?</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
